@@ -1,6 +1,8 @@
 const webpack = require("webpack")
 
 module.exports = function override(config, env) {
+  config.devtool = false;
+  
   let loaders = config.resolve;
   loaders.fallback = {
     ...config.resolve.fallback,
