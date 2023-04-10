@@ -2,7 +2,7 @@
     "build": {
       "image": "node:alpine",
       "command": "yarn install && yarn build",
-      "publicDir": "public",
+      "publicDir": "build",
       "baseDir": "src"
     }
    }
